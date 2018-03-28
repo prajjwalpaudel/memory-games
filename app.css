@@ -1,0 +1,148 @@
+/*outer box styling*/
+div#outerBox
+{
+    background: linear-gradient(50deg, blue 100%, black 150%);
+	width: 44%;
+    height: 110%;
+    margin-left: 8cm;
+    border-radius: 9px;
+    box-shadow: 10px 14px 18px 0 rgba(45, 60, 70, 0.4);
+}
+
+/* inner boxes styling*/
+div#outerBox>div
+{
+	
+	background: black;
+	width: 120px;
+	height: 120px;
+	margin-left: 18px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	font-size :92px;
+	color: blue;
+	border-radius: 9px;
+	cursor: pointer;
+	box-shadow: 5px 2px 20px 0 rgba(45, 60, 70, 0.4);
+	vertical-align: 1.5cm;
+
+}
+
+
+i{
+	font-size: 18px;
+}
+
+/* heading styling*/
+#h1
+{
+  margin-left: 22%;
+  color: lime;
+  text-align: center;
+  text-shadow: 3px 3px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -3px 1px 0 #000, 3px 2px 0 #000;
+  letter-spacing: 8px;
+  font: 100px/100px 'Matching Solid', Helvetica, Arial, Sans-Serif;
+  -webkit-text-stroke: 2px black;
+  font-family: 'Comic Sans Ms';
+}
+
+/* congratulation message styling*/
+div#popUp
+{
+	text-align: center;
+	
+}
+span#img>img
+{	margin-top: 1cm;
+	height:240px;
+	width:290px;
+}
+
+/*styling for timer and stars rating*/
+#UpperDiv
+{	
+	color: blue;
+	
+	
+}
+i
+{
+	font-size: 30px;
+}
+#minutes
+{
+	padding-left: 26%;
+	font-size: 25px;
+}
+#seconds
+{
+	font-size: 25px;
+}
+#star1
+{
+	padding-left: 19%;
+	font-size: 25px;
+}
+#star2,#star3
+{
+	font-size: 25px;
+}
+#moves
+{	
+	padding-left: 2%;
+	margin-top: 2cm;
+	font-size: 30px;
+	font-family: 'Algerian';
+	
+}
+
+#reload
+{
+	padding-left: 5%;
+	font-size: 30px;
+	cursor: pointer;
+}
+.congrats
+{
+	font-size: 30px;
+	
+}
+.moves,.woo
+{
+	font-size: 25px;
+	
+}
+
+/* Button styling*/
+span#button>button
+{
+	display: block;
+	margin-left: 46%;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	height:40px;
+	width:120px;
+	background: red;
+	color:white;
+	cursor: pointer;
+	font-size: 15px;
+
+}
+pre
+{
+	font-family: '';
+	color: lime;
+}
+span#button>button:hover
+{
+	background: yellow;
+}
+#timer
+{
+	font-size: 24px;
+	
+}
